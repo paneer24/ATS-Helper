@@ -8,3 +8,4 @@ langchain-community == 0.0.13
 pdf2image == 1.17.0
 poppler-utils
 #sqlite3
+faiss-cpu
