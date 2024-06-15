@@ -51,7 +51,7 @@ def main():
             st.session_state['chat_history'] = []
 
 
-        uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
+        uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"],accept_multiple_files=True)
         image=""
         if uploaded_file is not None:
             image = Image.open(uploaded_file)
