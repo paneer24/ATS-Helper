@@ -1,11 +1,4 @@
-streamlit == 1.30.0
-langchain == 0.1.1
-google-generativeai == 0.3.2
-IPython
-PyPDF2 == 3.0.1
-langchain-google-genai == 0.0.6
-langchain-community == 0.0.13
-pdf2image == 1.17.0
-poppler-utils
-#sqlite3
-faiss-cpu
+streamlit
+google-generativeai
+python-dotenv
+pdf2image
