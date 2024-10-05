@@ -6,7 +6,7 @@ from PIL import Image
 import google.generativeai as genai
 
 def get_gemini_response(input_text, image):
-    model = genai.GenerativeModel('gemini-pro-vision')
+    model = genai.GenerativeModel('gemini-1.5-flash')
     if input_text != "":
         response = model.generate_content([input_text, image])
     else:
